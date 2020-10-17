@@ -11,11 +11,14 @@ groups = ['251123409000385','843804142348443','900389246658181']
 #make pause of 5 seconds to focus on the window of the browser with facebook page opened
 time.sleep(5)
 
-
+#the following simulate key presses (control+t and the releases it), that combination makes a new tab to open
 pyautogui.keyDown('ctrl')
 pyautogui.keyDown('t')
 pyautogui.keyUp('t')
 pyautogui.keyUp('ctrl')
+
+#here comes the action
+##a loop to the end of the script
 
 for i in range(len(groups)):
     link = 'https://facebook.com/groups/'+groups[i]
