@@ -1,9 +1,16 @@
+#script to write make some post on defined facebook pages
+
+## we call the module pyautogui (a piece of code already programend)
 import pyautogui
+## make the same with time
 import time
 
+#we define a list to a variable. this numbers are the ids of the facebook pages we are going to post.
 groups = ['251123409000385','843804142348443','900389246658181']
 
+#make pause of 5 seconds to focus on the window of the browser with facebook page opened
 time.sleep(5)
+
 
 pyautogui.keyDown('ctrl')
 pyautogui.keyDown('t')
