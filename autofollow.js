@@ -1,3 +1,8 @@
+/* I had created a detaild video on this script about how this script is working, and 
+ * also explain each step, if you face any problem to use this script you can watch that video
+ * Link: https://youtu.be/4we6OhMJyqs
+ */
+
 const onOtherAccount = true;
 
 let parentDiv;
